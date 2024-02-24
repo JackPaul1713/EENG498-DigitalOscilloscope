@@ -1,0 +1,293 @@
+
+*** Running vivado
+    with args -log enhancedPwm_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source enhancedPwm_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source enhancedPwm_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 456.211 ; gain = 159.926
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/enhancedPwm_1_0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/myip_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: enhancedPwm_0
+Command: synth_design -top enhancedPwm_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9532
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1280.707 ; gain = 409.406
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'enhancedPwm_0' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/synth/enhancedPwm_0.vhd:85]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'enhancedPwm_v1_0' declared at 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0.vhd:5' bound to instance 'U0' of component 'enhancedPwm_v1_0' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/synth/enhancedPwm_0.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'enhancedPwm_v1_0' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0.vhd:51]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'enhancedPwm_v1_0_S00_AXI' declared at 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0_S00_AXI.vhd:5' bound to instance 'enhancedPwm_v1_0_S00_AXI_inst' of component 'enhancedPwm_v1_0_S00_AXI' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'enhancedPwm_v1_0_S00_AXI' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0_S00_AXI.vhd:88]
+INFO: [Synth 8-226] default block is never used [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0_S00_AXI.vhd:234]
+INFO: [Synth 8-226] default block is never used [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0_S00_AXI.vhd:364]
+INFO: [Synth 8-3491] module 'enhancedPwm' declared at 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:10' bound to instance 'epwm' of component 'enhancedPwm' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0_S00_AXI.vhd:397]
+INFO: [Synth 8-638] synthesizing module 'enhancedPwm' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:18]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericCounter.vhdl:15' bound to instance 'dutycycleCounter' of component 'genericCounter' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:44]
+INFO: [Synth 8-638] synthesizing module 'genericCounter' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericCounter.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'genericCounter' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericCounter.vhdl:23]
+	Parameter N bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericComparator.vhdl:10' bound to instance 'dutycycleCompare' of component 'genericCompare' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:54]
+INFO: [Synth 8-638] synthesizing module 'genericCompare' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericComparator.vhdl:16]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericComparator.vhdl:16]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericComparator.vhdl:10' bound to instance 'rolloverCompare' of component 'genericCompare' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:64]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized1' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericComparator.vhdl:16]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized1' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericComparator.vhdl:16]
+	Parameter N bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericRegister.vhdl:11' bound to instance 'dutycycleRegister' of component 'genericRegister' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:74]
+INFO: [Synth 8-638] synthesizing module 'genericRegister' [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericRegister.vhdl:18]
+INFO: [Synth 8-256] done synthesizing module 'genericRegister' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/genericRegister.vhdl:18]
+INFO: [Synth 8-256] done synthesizing module 'enhancedPwm' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:18]
+INFO: [Synth 8-256] done synthesizing module 'enhancedPwm_v1_0_S00_AXI' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0_S00_AXI.vhd:88]
+INFO: [Synth 8-256] done synthesizing module 'enhancedPwm_v1_0' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'enhancedPwm_0' (0#1) [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/synth/enhancedPwm_0.vhd:85]
+WARNING: [Synth 8-3848] Net pwmCount in module/entity enhancedPwm does not have driver. [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/axiinterface-enhancedpwm/enhancedPwm.vhdl:14]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.gen/sources_1/ip/enhancedPwm_0/hdl/enhancedPwm_v1_0_S00_AXI.vhd:228]
+WARNING: [Synth 8-7129] Port pwmCount[7] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pwmCount[6] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pwmCount[5] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pwmCount[4] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pwmCount[3] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pwmCount[2] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pwmCount[1] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pwmCount[0] in module enhancedPwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module enhancedPwm_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module enhancedPwm_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module enhancedPwm_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module enhancedPwm_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module enhancedPwm_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module enhancedPwm_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1373.949 ; gain = 502.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1373.949 ; gain = 502.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1373.949 ; gain = 502.648
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1373.949 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1431.312 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1431.336 ; gain = 0.023
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 4     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module enhancedPwm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module enhancedPwm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module enhancedPwm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module enhancedPwm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module enhancedPwm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module enhancedPwm_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     2|
+|2     |LUT1   |     3|
+|3     |LUT2   |     2|
+|4     |LUT3   |     3|
+|5     |LUT4   |    29|
+|6     |LUT5   |    35|
+|7     |LUT6   |     5|
+|8     |FDRE   |   153|
+|9     |FDSE   |     3|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1431.336 ; gain = 502.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1431.336 ; gain = 560.035
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1431.336 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1431.336 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f9e2b3c2
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1431.336 ; gain = 940.520
+INFO: [Common 17-1381] The checkpoint 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.runs/enhancedPwm_0_synth_1/enhancedPwm_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP enhancedPwm_0, cache-ID = 9797bf5e655d6b88
+INFO: [Coretcl 2-1174] Renamed 6 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-enhancedpwm/axiinterface-enhancedpwm.tmp/enhancedpwm_v1_0_project/enhancedPwm_v1_0_project.runs/enhancedPwm_0_synth_1/enhancedPwm_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file enhancedPwm_0_utilization_synth.rpt -pb enhancedPwm_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 19:10:58 2023...

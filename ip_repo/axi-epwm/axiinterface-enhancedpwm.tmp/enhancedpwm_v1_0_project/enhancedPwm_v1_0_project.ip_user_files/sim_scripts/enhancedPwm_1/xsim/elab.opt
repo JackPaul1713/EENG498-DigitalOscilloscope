@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt 2  -L xil_defaultlib -L secureip -L xpm --snapshot enhancedPwm_1 xil_defaultlib.enhancedPwm_1 -log elaborate.log

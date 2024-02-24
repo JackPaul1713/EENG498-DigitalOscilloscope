@@ -1,0 +1,145 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Tue Nov  7 21:23:20 2023
+| Host         : ASUSComputer running 64-bit major release  (build 9200)
+| Command      : report_methodology -file scopeToHdmi_methodology_drc_routed.rpt -pb scopeToHdmi_methodology_drc_routed.pb -rpx scopeToHdmi_methodology_drc_routed.rpx
+| Design       : scopeToHdmi
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 18
++-----------+------------------+------------------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                                      | Violations |
++-----------+------------------+------------------------------------------------------------------+------------+
+| TIMING-4  | Critical Warning | Invalid primary clock redefinition on a clock tree               | 1          |
+| TIMING-6  | Critical Warning | No common primary clock between related clocks                   | 1          |
+| TIMING-7  | Critical Warning | No common node between related clocks                            | 1          |
+| TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin                        | 1          |
+| TIMING-51 | Critical Warning | No common phase between related clocks from parallel CMBs        | 1          |
+| CKLD-2    | Warning          | Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads | 1          |
+| LUTAR-1   | Warning          | LUT drives async reset alert                                     | 1          |
+| TIMING-16 | Warning          | Large setup violation                                            | 7          |
+| TIMING-18 | Warning          | Missing input or output delay                                    | 4          |
++-----------+------------------+------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-4#1 Critical Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock vc/inst/clk_in1 is defined downstream of clock sysClk and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks sysClk and clk_out1_clk_wiz_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks sysClk] -to [get_clocks clk_out1_clk_wiz_0]
+Related violations: <none>
+
+TIMING-7#1 Critical Warning
+No common node between related clocks  
+The clocks sysClk and clk_out1_clk_wiz_0 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks sysClk] -to [get_clocks clk_out1_clk_wiz_0]
+Related violations: <none>
+
+TIMING-27#1 Critical Warning
+Invalid primary clock on hierarchical pin  
+A primary clock vc/inst/clk_in1 is created on an inappropriate internal pin vc/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
+Related violations: <none>
+
+TIMING-51#1 Critical Warning
+No common phase between related clocks from parallel CMBs  
+The clocks sysClk and clk_out1_clk_wiz_0 are timed together but have no phase relationship. The design could fail in hardware. The clocks originate from two parallel Clock Modifying Blocks and at least one of the MMCM or PLLs clock dividers is not set to 1. To be safely timed, all MMCMs or PLLs involved in parallel clocking must have the clock divider set to 1.
+Related violations: <none>
+
+CKLD-2#1 Warning
+Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
+Clock net sysClk_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): prevBtn_reg[0]/C, prevBtn_reg[1]/C, prevBtn_reg[2]/C,
+triggerTime_reg[10]/C, triggerTime_reg[4]/C, triggerTime_reg[5]/C,
+triggerTime_reg[5]_replica/C, triggerTime_reg[6]/C, triggerTime_reg[7]/C,
+triggerTime_reg[8]/C, triggerTime_reg[9]/C, triggerVolt_reg[10]/C,
+triggerVolt_reg[4]/C, triggerVolt_reg[7]/C, triggerVolt_reg[8]/C
+ (the first 15 of 48 listed)
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell hdmi_inst/inst/encr/oserdes_m_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) hdmi_inst/inst/encg/dout_reg[9]/CLR, hdmi_inst/inst/encr/cnt_reg[1]/CLR,
+hdmi_inst/inst/encr/cnt_reg[2]/CLR, hdmi_inst/inst/encr/cnt_reg[3]/CLR,
+hdmi_inst/inst/encr/cnt_reg[4]/CLR, hdmi_inst/inst/encr/dout_reg[0]/CLR,
+hdmi_inst/inst/encr/dout_reg[1]/CLR, hdmi_inst/inst/encr/dout_reg[2]/CLR,
+hdmi_inst/inst/encr/dout_reg[3]/CLR, hdmi_inst/inst/encr/dout_reg[4]/CLR,
+hdmi_inst/inst/encr/dout_reg[5]/CLR, hdmi_inst/inst/encr/dout_reg[6]/CLR,
+hdmi_inst/inst/encr/dout_reg[7]/CLR, hdmi_inst/inst/encr/dout_reg[8]/CLR,
+hdmi_inst/inst/encr/dout_reg[9]/CLR (the first 15 of 42 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -12.509 ns between triggerTime_reg[5]_replica_6/C (clocked by sysClk) and sf/green_reg[7]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -12.582 ns between triggerTime_reg[5]_replica_6/C (clocked by sysClk) and sf/blue_reg[6]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -12.634 ns between triggerTime_reg[5]_replica_6/C (clocked by sysClk) and sf/red_reg[7]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -12.722 ns between triggerTime_reg[5]_replica_6/C (clocked by sysClk) and sf/green_reg[6]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -12.851 ns between triggerTime_reg[5]_replica_6/C (clocked by sysClk) and sf/red_reg[6]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -12.901 ns between triggerTime_reg[5]_replica_6/C (clocked by sysClk) and sf/green_reg[4]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -12.963 ns between triggerTime_reg[5]_replica_6/C (clocked by sysClk) and sf/blue_reg[7]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on btn[0] relative to the rising and/or falling clock edge(s) of sysClk.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btn[1] relative to the rising and/or falling clock edge(s) of sysClk.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btn[2] relative to the rising and/or falling clock edge(s) of sysClk.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on resetn relative to the rising and/or falling clock edge(s) of sysClk.
+Related violations: <none>
+
+

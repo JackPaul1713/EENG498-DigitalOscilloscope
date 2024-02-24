@@ -1,0 +1,31 @@
+
+*** Running vivado
+    with args -log zyncoscope_epwm_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source zyncoscope_epwm_0_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source zyncoscope_epwm_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 454.809 ; gain = 162.270
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: zyncoscope_epwm_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 582688f68334584c to dir: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_0_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/ip/2023.1/5/8/582688f68334584c/zyncoscope_epwm_1_0.dcp to C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_0_0_synth_1/zyncoscope_epwm_0_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/ip/2023.1/5/8/582688f68334584c/zyncoscope_epwm_1_0_sim_netlist.v to C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_0_0_synth_1/zyncoscope_epwm_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/ip/2023.1/5/8/582688f68334584c/zyncoscope_epwm_1_0_sim_netlist.vhdl to C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_0_0_synth_1/zyncoscope_epwm_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/ip/2023.1/5/8/582688f68334584c/zyncoscope_epwm_1_0_stub.v to C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_0_0_synth_1/zyncoscope_epwm_0_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/ip/2023.1/5/8/582688f68334584c/zyncoscope_epwm_1_0_stub.vhdl to C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_0_0_synth_1/zyncoscope_epwm_0_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP zyncoscope_epwm_0_0, cache-ID = 582688f68334584c.
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 30 22:03:03 2023...

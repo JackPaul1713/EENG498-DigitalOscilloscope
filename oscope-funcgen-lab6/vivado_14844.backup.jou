@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov 28 18:16:18 2023
+# Process ID: 14844
+# Current directory: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent42292 C:\Users\JackPaul\OneDrive\Documents\Programs\Projects\eeng498\oscilloscope-lab6\oscilloscope-lab4.xpr
+# Log file: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/vivado.log
+# Journal file: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6\vivado.jou
+# Running On: ASUSComputer, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16541 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/oscilloscope-lab4.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

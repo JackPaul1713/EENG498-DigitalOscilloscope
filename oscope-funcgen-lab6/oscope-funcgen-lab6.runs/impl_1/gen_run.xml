@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1701909207">
+  <File Type="ROUTE-PWR" Name="zyncoscope_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="zyncoscope_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="zyncoscope_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="zyncoscope_wrapper_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="zyncoscope_wrapper.msk"/>
+  <File Type="ROUTE-CLK" Name="zyncoscope_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="zyncoscope_wrapper.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="zyncoscope_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="zyncoscope_wrapper.bit"/>
+  <File Type="BG-DRC" Name="zyncoscope_wrapper.drc"/>
+  <File Type="BG-BGN" Name="zyncoscope_wrapper.bgn"/>
+  <File Type="BG-BIN" Name="zyncoscope_wrapper.bin"/>
+  <File Type="BITSTR-RBT" Name="zyncoscope_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="zyncoscope_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="zyncoscope_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="zyncoscope_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="zyncoscope_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="zyncoscope_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="zyncoscope_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="zyncoscope_wrapper.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="zyncoscope_wrapper_soc.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="zyncoscope_wrapper.npi"/>
+  <File Type="OPT-DRC" Name="zyncoscope_wrapper_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="zyncoscope_wrapper.rbd"/>
+  <File Type="OPT-HWDEF" Name="zyncoscope_wrapper.hwdef"/>
+  <File Type="PLACE-IO" Name="zyncoscope_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="zyncoscope_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="zyncoscope_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="zyncoscope_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="zyncoscope_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="zyncoscope_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="zyncoscope_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="zyncoscope_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="zyncoscope_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="zyncoscope_wrapper_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="zyncoscope_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="zyncoscope_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="zyncoscope_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="zyncoscope_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="zyncoscope_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="zyncoscope_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="zyncoscope_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="zyncoscope_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="zyncoscope_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="zyncoscope_wrapper_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="zyncoscope_wrapper_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="zyncoscope_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="zyncoscope_wrapper_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="zyncoscope_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="zyncoscope_wrapper_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="zyncoscope_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="zyncoscope_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="zyncoscope_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="zyncoscope_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="zyncoscope_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="zyncoscope_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="zyncoscope_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="zyncoscope_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="zyncoscope_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="zyncoscope_wrapper.pdi"/>
+  <File Type="PL-PDI-FILE" Name="zyncoscope_wrapper_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="zyncoscope_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="zyncoscope_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="zyncoscope_wrapper.rnpi"/>
+  <File Type="ROUTE-RQS" Name="zyncoscope_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="zyncoscope_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/zyncoscope/zyncoscope.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/zyncoscope/hdl/zyncoscope_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="zyncoscope_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/axi-oscope/acquireToHDMI.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/axi-oscope/acquireToHDMI.xdc"/>
+        <Attr Name="ImportTime" Val="1701401084"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/zyncoscope_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="zyncoscope_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="zyncoscope_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="zyncoscope_axi_gpio_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="zyncoscope_oscope_0_1"/>
+</GenRun>

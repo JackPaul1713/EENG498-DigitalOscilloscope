@@ -1,0 +1,15 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_controlpath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_ctrlpath'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/an7606.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'an7606'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/scopeFace.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeFace'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/two2Pix.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'two2pix'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_tb.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_tb'

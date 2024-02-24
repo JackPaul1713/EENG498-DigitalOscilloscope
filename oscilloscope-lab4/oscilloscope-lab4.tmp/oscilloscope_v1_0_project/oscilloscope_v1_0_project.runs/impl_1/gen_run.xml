@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1701312678">
+  <File Type="ROUTE-PWR" Name="oscilloscope_v1_0_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="oscilloscope_v1_0.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="oscilloscope_v1_0_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="oscilloscope_v1_0_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="oscilloscope_v1_0_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="oscilloscope_v1_0.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="oscilloscope_v1_0_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="oscilloscope_v1_0_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="oscilloscope_v1_0_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="oscilloscope_v1_0_opt.dcp"/>
+  <File Type="OPT-DRC" Name="oscilloscope_v1_0_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="oscilloscope_v1_0.hwdef"/>
+  <File Type="PWROPT-DCP" Name="oscilloscope_v1_0_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="oscilloscope_v1_0_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="oscilloscope_v1_0_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="oscilloscope_v1_0_placed.dcp"/>
+  <File Type="PLACE-IO" Name="oscilloscope_v1_0_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="oscilloscope_v1_0_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="oscilloscope_v1_0_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="oscilloscope_v1_0_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="oscilloscope_v1_0_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="oscilloscope_v1_0_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="oscilloscope_v1_0_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="oscilloscope_v1_0.bin"/>
+  <File Type="PLACE-TIMING" Name="oscilloscope_v1_0_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="oscilloscope_v1_0_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="oscilloscope_v1_0_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="oscilloscope_v1_0_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="oscilloscope_v1_0.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="oscilloscope_v1_0_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="oscilloscope_v1_0_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="oscilloscope_v1_0_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="oscilloscope_v1_0.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="oscilloscope_v1_0_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="oscilloscope_v1_0_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="oscilloscope_v1_0_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="oscilloscope_v1_0_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="oscilloscope_v1_0_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="oscilloscope_v1_0_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="oscilloscope_v1_0_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="oscilloscope_v1_0_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="oscilloscope_v1_0_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="oscilloscope_v1_0_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="oscilloscope_v1_0_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="oscilloscope_v1_0_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="oscilloscope_v1_0_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="oscilloscope_v1_0_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="oscilloscope_v1_0_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="oscilloscope_v1_0_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="oscilloscope_v1_0_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="oscilloscope_v1_0_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="oscilloscope_v1_0_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="oscilloscope_v1_0_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="oscilloscope_v1_0_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="oscilloscope_v1_0_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="oscilloscope_v1_0_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="oscilloscope_v1_0_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="oscilloscope_v1_0_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="oscilloscope_v1_0_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="oscilloscope_v1_0_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="oscilloscope_v1_0.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="oscilloscope_v1_0_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="oscilloscope_v1_0_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="oscilloscope_v1_0.nky"/>
+  <File Type="BITSTR-BMM" Name="oscilloscope_v1_0_bd.bmm"/>
+  <File Type="PDI-FILE" Name="oscilloscope_v1_0.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="oscilloscope_v1_0_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="oscilloscope_v1_0_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="oscilloscope_v1_0.rcfi"/>
+  <File Type="CFI_FILE" Name="oscilloscope_v1_0.cfi"/>
+  <File Type="RNPI_FILE" Name="oscilloscope_v1_0.rnpi"/>
+  <File Type="NPI_FILE" Name="oscilloscope_v1_0.npi"/>
+  <File Type="RBD_FILE" Name="oscilloscope_v1_0.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="oscilloscope_v1_0.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="oscilloscope_v1_0.sysdef"/>
+  <File Type="BG-BGN" Name="oscilloscope_v1_0.bgn"/>
+  <File Type="BG-DRC" Name="oscilloscope_v1_0.drc"/>
+  <File Type="RDI-RDI" Name="oscilloscope_v1_0.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="oscilloscope_v1_0_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="oscilloscope_v1_0_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/acquireToHDMI_package.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/acquireToHDMI_package.vhdl"/>
+        <Attr Name="ImportTime" Val="1701221024"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/basicBuildingBlocksVhdl_package.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/basicBuildingBlocksVhdl_package.vhdl"/>
+        <Attr Name="ImportTime" Val="1693867874"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/acquireToHDMI.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/acquireToHDMI.vhdl"/>
+        <Attr Name="ImportTime" Val="1701221027"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/acquireToHDMI_controlpath.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/acquireToHDMI_controlpath.vhdl"/>
+        <Attr Name="ImportTime" Val="1701196159"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/scopeToHdmi_package.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/scopeToHdmi_package.vhdl"/>
+        <Attr Name="ImportTime" Val="1701210567"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/acquireToHDMI_datapath.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/acquireToHDMI_datapath.vhdl"/>
+        <Attr Name="ImportTime" Val="1701215537"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/flagRegister.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/flagRegister.vhdl"/>
+        <Attr Name="ImportTime" Val="1693867874"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/genericComparator.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/genericComparator.vhdl"/>
+        <Attr Name="ImportTime" Val="1693867874"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/genericCounter.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/genericCounter.vhdl"/>
+        <Attr Name="ImportTime" Val="1693867874"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/genericMux4x1.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/genericMux4x1.vhdl"/>
+        <Attr Name="ImportTime" Val="1693867874"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/genericRegister.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/genericRegister.vhdl"/>
+        <Attr Name="ImportTime" Val="1698952560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscilloscope_1_0/hdl/oscilloscope_v1_0_S00_AXI.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/scopeFace.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/scopeFace.vhdl"/>
+        <Attr Name="ImportTime" Val="1701210539"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/two2Pix.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/two2Pix.vhdl"/>
+        <Attr Name="ImportTime" Val="1701201367"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/axiinterface-oscilloscope/videoSignalGenerator.vhdl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/axiinterface-oscilloscope/videoSignalGenerator.vhdl"/>
+        <Attr Name="ImportTime" Val="1695605980"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscilloscope_1_0/hdl/oscilloscope_v1_0.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscilloscope_1_0/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="oscilloscope_v1_0"/>
+      <Option Name="TopRTLFile" Val="$PPRDIR/../../../../../../../../../../Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscilloscope_1_0/hdl/oscilloscope_v1_0.vhd"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hdmi_tx_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

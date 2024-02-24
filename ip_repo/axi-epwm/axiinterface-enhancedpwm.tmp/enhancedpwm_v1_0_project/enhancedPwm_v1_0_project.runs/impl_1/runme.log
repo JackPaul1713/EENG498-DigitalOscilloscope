@@ -1,0 +1,7 @@
+
+*** Running vivado
+    with args -log enhancedPwm_v1_0.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source enhancedPwm_v1_0.tcl -notrace
+
+
+ECHO is off.
+ECHO is off.

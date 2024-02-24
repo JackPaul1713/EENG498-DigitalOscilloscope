@@ -1,0 +1,92 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Tue Nov 28 16:24:10 2023
+| Host         : ASUSComputer running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file acquireToHDMI_control_sets_placed.rpt
+| Design       : acquireToHDMI
+| Device       : xc7z010
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    14 |
+|    Minimum number of control sets                        |    14 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    45 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    14 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     5 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              91 |           31 |
+| No           | No                    | Yes                    |              42 |           23 |
+| No           | Yes                   | No                     |              28 |           14 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             146 |           46 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+--------------------------------------------------+--------------------------------------+------------------+----------------+--------------+
+|        Clock Signal        |                   Enable Signal                  |           Set/Reset Signal           | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------+--------------------------------------------------+--------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG             |                                                  | datapath/rateCounter/SR[0]           |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG             | ctrlpath/FSM_onehot_state_reg[9]_0[0]            | datapath/rateCounter/SR[0]           |                3 |              8 |         2.67 |
+|  datapath/vc/inst/clk_out1 |                                                  | datapath/rateCounter/SR[0]           |                7 |              9 |         1.29 |
+|  clk_IBUF_BUFG             | ctrlpath/E[0]                                    | datapath/rateCounter/SR[0]           |                6 |             11 |         1.83 |
+|  datapath/vc/inst/clk_out1 |                                                  | datapath/vidSigGen/h_cnt[10]_i_1_n_0 |                3 |             11 |         3.67 |
+|  datapath/vc/inst/clk_out1 | datapath/vidSigGen/geqOp                         | datapath/rateCounter/SR[0]           |                3 |             11 |         3.67 |
+|  datapath/vc/inst/clk_out1 | datapath/vidSigGen/eqOp3_in                      | datapath/vidSigGen/v_cnt[10]_i_1_n_0 |                5 |             11 |         2.20 |
+|  datapath/vc/inst/clk_out1 | datapath/vidSigGen/pixelVert[10]_i_1_n_0         | datapath/rateCounter/SR[0]           |                3 |             11 |         3.67 |
+|  clk_IBUF_BUFG             | ctrlpath/Q[5]                                    | datapath/rateCounter/SR[0]           |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG             | datapath/rateCounter/FSM_onehot_state_reg[18][0] | datapath/rateCounter/SR[0]           |                9 |             22 |         2.44 |
+|  clk_IBUF_BUFG             | ctrlpath/FSM_onehot_state_reg[1]_1[0]            | datapath/rateCounter/SR[0]           |                4 |             24 |         6.00 |
+|  clk_IBUF_BUFG             | ctrlpath/FSM_onehot_state_reg[17]_1[0]           | datapath/rateCounter/SR[0]           |                8 |             32 |         4.00 |
+|  datapath/vc/inst/clk_out1 |                                                  | datapath/vgaToHdmi/inst/encr/AR[0]   |               23 |             42 |         1.83 |
+|  datapath/vc/inst/clk_out1 |                                                  |                                      |               34 |            119 |         3.50 |
++----------------------------+--------------------------------------------------+--------------------------------------+------------------+----------------+--------------+
+
+

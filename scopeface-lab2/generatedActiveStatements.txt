@@ -1,0 +1,145 @@
+constant T_EDGE: std_logic_vector(VIDEO_BITS-1 downto 0) := std_logic_vector(to_unsigned(6, VIDEO_BITS));
+constant B_EDGE: std_logic_vector(VIDEO_BITS-1 downto 0) := std_logic_vector(to_unsigned(712, VIDEO_BITS));
+constant L_EDGE: std_logic_vector(VIDEO_BITS-1 downto 0) := std_logic_vector(to_unsigned(11, VIDEO_BITS));
+constant R_EDGE: std_logic_vector(VIDEO_BITS-1 downto 0) := std_logic_vector(to_unsigned(1267, VIDEO_BITS));
+constant HEIGHT: std_logic_vector(VIDEO_BITS-1 downto 0) := std_logic_vector(to_unsigned(1257, VIDEO_BITS));
+constant WIDTH: std_logic_vector(VIDEO_BITS-1 downto 0) := std_logic_vector(to_unsigned(707, VIDEO_BITS));
+
+borderActive <= '1' when ((pixelVert >= 6 and pixelVert <= 9) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+                '1' when ((pixelVert >= 709 and pixelVert <= 712) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+                '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 11 and pixelHorz <= 14)) else
+                '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 1264 and pixelHorz <= 1267)) else
+                '0';
+markerActive <= '1' when ((pixelVert >= (triggerVolt - 16) and pixelVert <= (triggerVolt + 16)) and (pixelHorz >= 11 and pixelHorz <= 11)) else
+                '1' when ((pixelVert >= (triggerVolt - 15) and pixelVert <= (triggerVolt + 15)) and (pixelHorz >= 12 and pixelHorz <= 12)) else
+                '1' when ((pixelVert >= (triggerVolt - 14) and pixelVert <= (triggerVolt + 14)) and (pixelHorz >= 13 and pixelHorz <= 13)) else
+                '1' when ((pixelVert >= (triggerVolt - 13) and pixelVert <= (triggerVolt + 13)) and (pixelHorz >= 14 and pixelHorz <= 14)) else
+                '1' when ((pixelVert >= (triggerVolt - 12) and pixelVert <= (triggerVolt + 12)) and (pixelHorz >= 15 and pixelHorz <= 15)) else
+                '1' when ((pixelVert >= (triggerVolt - 11) and pixelVert <= (triggerVolt + 11)) and (pixelHorz >= 16 and pixelHorz <= 16)) else
+                '1' when ((pixelVert >= (triggerVolt - 10) and pixelVert <= (triggerVolt + 10)) and (pixelHorz >= 17 and pixelHorz <= 17)) else
+                '1' when ((pixelVert >= (triggerVolt - 9) and pixelVert <= (triggerVolt + 9)) and (pixelHorz >= 18 and pixelHorz <= 18)) else
+                '1' when ((pixelVert >= (triggerVolt - 8) and pixelVert <= (triggerVolt + 8)) and (pixelHorz >= 19 and pixelHorz <= 19)) else
+                '1' when ((pixelVert >= (triggerVolt - 7) and pixelVert <= (triggerVolt + 7)) and (pixelHorz >= 20 and pixelHorz <= 20)) else
+                '1' when ((pixelVert >= (triggerVolt - 6) and pixelVert <= (triggerVolt + 6)) and (pixelHorz >= 21 and pixelHorz <= 21)) else
+                '1' when ((pixelVert >= (triggerVolt - 5) and pixelVert <= (triggerVolt + 5)) and (pixelHorz >= 22 and pixelHorz <= 22)) else
+                '1' when ((pixelVert >= (triggerVolt - 4) and pixelVert <= (triggerVolt + 4)) and (pixelHorz >= 23 and pixelHorz <= 23)) else
+                '1' when ((pixelVert >= (triggerVolt - 3) and pixelVert <= (triggerVolt + 3)) and (pixelHorz >= 24 and pixelHorz <= 24)) else
+                '1' when ((pixelVert >= (triggerVolt - 2) and pixelVert <= (triggerVolt + 2)) and (pixelHorz >= 25 and pixelHorz <= 25)) else
+                '1' when ((pixelVert >= (triggerVolt - 1) and pixelVert <= (triggerVolt + 1)) and (pixelHorz >= 26 and pixelHorz <= 26)) else
+                '1' when ((pixelVert >= 6 and pixelVert <= 11) and (pixelHorz >= (triggerTime - 16) and pixelHorz <= (triggerTime + 16))) else
+                '1' when ((pixelVert >= 7 and pixelVert <= 12) and (pixelHorz >= (triggerTime - 15) and pixelHorz <= (triggerTime + 15))) else
+                '1' when ((pixelVert >= 8 and pixelVert <= 13) and (pixelHorz >= (triggerTime - 14) and pixelHorz <= (triggerTime + 14))) else
+                '1' when ((pixelVert >= 9 and pixelVert <= 14) and (pixelHorz >= (triggerTime - 13) and pixelHorz <= (triggerTime + 13))) else
+                '1' when ((pixelVert >= 10 and pixelVert <= 15) and (pixelHorz >= (triggerTime - 12) and pixelHorz <= (triggerTime + 12))) else
+                '1' when ((pixelVert >= 11 and pixelVert <= 16) and (pixelHorz >= (triggerTime - 11) and pixelHorz <= (triggerTime + 11))) else
+                '1' when ((pixelVert >= 12 and pixelVert <= 17) and (pixelHorz >= (triggerTime - 10) and pixelHorz <= (triggerTime + 10))) else
+                '1' when ((pixelVert >= 13 and pixelVert <= 18) and (pixelHorz >= (triggerTime - 9) and pixelHorz <= (triggerTime + 9))) else
+                '1' when ((pixelVert >= 14 and pixelVert <= 19) and (pixelHorz >= (triggerTime - 8) and pixelHorz <= (triggerTime + 8))) else
+                '1' when ((pixelVert >= 15 and pixelVert <= 20) and (pixelHorz >= (triggerTime - 7) and pixelHorz <= (triggerTime + 7))) else
+                '1' when ((pixelVert >= 16 and pixelVert <= 21) and (pixelHorz >= (triggerTime - 6) and pixelHorz <= (triggerTime + 6))) else
+                '1' when ((pixelVert >= 17 and pixelVert <= 22) and (pixelHorz >= (triggerTime - 5) and pixelHorz <= (triggerTime + 5))) else
+                '1' when ((pixelVert >= 18 and pixelVert <= 23) and (pixelHorz >= (triggerTime - 4) and pixelHorz <= (triggerTime + 4))) else
+                '1' when ((pixelVert >= 19 and pixelVert <= 24) and (pixelHorz >= (triggerTime - 3) and pixelHorz <= (triggerTime + 3))) else
+                '1' when ((pixelVert >= 20 and pixelVert <= 25) and (pixelHorz >= (triggerTime - 2) and pixelHorz <= (triggerTime + 2))) else
+                '1' when ((pixelVert >= 21 and pixelVert <= 26) and (pixelHorz >= (triggerTime - 1) and pixelHorz <= (triggerTime + 1))) else
+                '0';
+gridActive <= '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 135 and pixelHorz <= 135)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 259 and pixelHorz <= 259)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 383 and pixelHorz <= 383)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 507 and pixelHorz <= 507)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 631 and pixelHorz <= 631)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 755 and pixelHorz <= 755)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 879 and pixelHorz <= 879)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 1003 and pixelHorz <= 1003)) else
+              '1' when ((pixelVert >= 6 and pixelVert <= 712) and (pixelHorz >= 1127 and pixelHorz <= 1127)) else
+              '1' when ((pixelVert >= 75 and pixelVert <= 75) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 144 and pixelVert <= 144) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 213 and pixelVert <= 213) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 282 and pixelVert <= 282) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 351 and pixelVert <= 351) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 420 and pixelVert <= 420) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 489 and pixelVert <= 489) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 558 and pixelVert <= 558) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '1' when ((pixelVert >= 627 and pixelVert <= 627) and (pixelHorz >= 11 and pixelHorz <= 1267)) else
+              '0';
+tickActive <= '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 35 and pixelHorz <= 35)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 59 and pixelHorz <= 59)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 83 and pixelHorz <= 83)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 107 and pixelHorz <= 107)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 159 and pixelHorz <= 159)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 183 and pixelHorz <= 183)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 207 and pixelHorz <= 207)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 231 and pixelHorz <= 231)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 283 and pixelHorz <= 283)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 307 and pixelHorz <= 307)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 331 and pixelHorz <= 331)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 355 and pixelHorz <= 355)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 407 and pixelHorz <= 407)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 431 and pixelHorz <= 431)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 455 and pixelHorz <= 455)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 479 and pixelHorz <= 479)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 531 and pixelHorz <= 531)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 555 and pixelHorz <= 555)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 579 and pixelHorz <= 579)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 603 and pixelHorz <= 603)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 655 and pixelHorz <= 655)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 679 and pixelHorz <= 679)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 703 and pixelHorz <= 703)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 727 and pixelHorz <= 727)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 779 and pixelHorz <= 779)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 803 and pixelHorz <= 803)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 827 and pixelHorz <= 827)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 851 and pixelHorz <= 851)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 903 and pixelHorz <= 903)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 927 and pixelHorz <= 927)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 951 and pixelHorz <= 951)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 975 and pixelHorz <= 975)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1027 and pixelHorz <= 1027)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1051 and pixelHorz <= 1051)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1075 and pixelHorz <= 1075)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1099 and pixelHorz <= 1099)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1151 and pixelHorz <= 1151)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1175 and pixelHorz <= 1175)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1199 and pixelHorz <= 1199)) else
+              '1' when ((pixelVert >= 343 and pixelVert <= 350) and (pixelHorz >= 1223 and pixelHorz <= 1223)) else
+              '1' when ((pixelVert >= 19 and pixelVert <= 19) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 32 and pixelVert <= 32) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 45 and pixelVert <= 45) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 58 and pixelVert <= 58) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 88 and pixelVert <= 88) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 101 and pixelVert <= 101) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 114 and pixelVert <= 114) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 127 and pixelVert <= 127) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 157 and pixelVert <= 157) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 170 and pixelVert <= 170) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 183 and pixelVert <= 183) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 196 and pixelVert <= 196) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 226 and pixelVert <= 226) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 239 and pixelVert <= 239) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 252 and pixelVert <= 252) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 265 and pixelVert <= 265) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 295 and pixelVert <= 295) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 308 and pixelVert <= 308) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 321 and pixelVert <= 321) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 334 and pixelVert <= 334) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 364 and pixelVert <= 364) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 377 and pixelVert <= 377) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 390 and pixelVert <= 390) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 403 and pixelVert <= 403) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 433 and pixelVert <= 433) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 446 and pixelVert <= 446) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 459 and pixelVert <= 459) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 472 and pixelVert <= 472) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 502 and pixelVert <= 502) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 515 and pixelVert <= 515) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 528 and pixelVert <= 528) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 541 and pixelVert <= 541) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 571 and pixelVert <= 571) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 584 and pixelVert <= 584) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 597 and pixelVert <= 597) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 610 and pixelVert <= 610) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 640 and pixelVert <= 640) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 653 and pixelVert <= 653) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 666 and pixelVert <= 666) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '1' when ((pixelVert >= 679 and pixelVert <= 679) and (pixelHorz >= 623 and pixelHorz <= 630)) else
+              '0';

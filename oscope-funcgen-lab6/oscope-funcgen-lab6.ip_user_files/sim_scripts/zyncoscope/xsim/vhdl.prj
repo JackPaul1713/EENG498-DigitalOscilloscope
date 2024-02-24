@@ -1,0 +1,30 @@
+vhdl xil_defaultlib  \
+"../../../bd/zyncoscope/ipshared/00ca/hdl/epwm_v1_0_S00_AXI.vhd" \
+"../../../bd/zyncoscope/ipshared/00ca/src/basicBuildingBlocksVhdl_package.vhdl" \
+"../../../bd/zyncoscope/ipshared/00ca/src/enhancedPwm.vhdl" \
+"../../../bd/zyncoscope/ipshared/00ca/src/genericComparator.vhdl" \
+"../../../bd/zyncoscope/ipshared/00ca/src/genericCounter.vhdl" \
+"../../../bd/zyncoscope/ipshared/00ca/src/genericRegister.vhdl" \
+"../../../bd/zyncoscope/ipshared/00ca/hdl/epwm_v1_0.vhd" \
+"../../../bd/zyncoscope/ip/zyncoscope_epwm_0_1/sim/zyncoscope_epwm_0_1.vhd" \
+"../../../bd/zyncoscope/ip/zyncoscope_epwm_1_1/sim/zyncoscope_epwm_1_1.vhd" \
+"../../../bd/zyncoscope/ip/zyncoscope_rst_ps7_0_50M_1/sim/zyncoscope_rst_ps7_0_50M_1.vhd" \
+"../../../bd/zyncoscope/ip/zyncoscope_axi_gpio_0_2/sim/zyncoscope_axi_gpio_0_2.vhd" \
+"../../../bd/zyncoscope/ipshared/d3b6/hdl/oscope_v1_0_S00_AXI.vhd" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/acquireToHDMI_package.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/basicBuildingBlocksVhdl_package.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/acquireToHDMI.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/acquireToHDMI_controlpath.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/scopeToHdmi_package.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/acquireToHDMI_datapath.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/genericMux4x1.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/genericRegister.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/scopeFace.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/two2Pix.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/src/videoSignalGenerator.vhdl" \
+"../../../bd/zyncoscope/ipshared/d3b6/hdl/oscope_v1_0.vhd" \
+"../../../bd/zyncoscope/ip/zyncoscope_oscope_0_0_2/sim/zyncoscope_oscope_0_0.vhd" \
+"../../../bd/zyncoscope/sim/zyncoscope.vhd" \
+
+# Do not sort compile order
+nosort

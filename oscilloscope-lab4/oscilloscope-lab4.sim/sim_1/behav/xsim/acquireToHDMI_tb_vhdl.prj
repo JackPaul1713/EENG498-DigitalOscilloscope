@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../acquireToHDMI_package.vhdl" \
+"../../../../basicBuildingBlocksVhdl/basicBuildingBlocksVhdl_package.vhdl" \
+"../../../../acquireToHDMI.vhdl" \
+"../../../../acquireToHDMI_controlpath.vhdl" \
+"../../../../scopeToHdmi_package.vhdl" \
+"../../../../acquireToHDMI_datapath.vhdl" \
+"../../../../an7606.vhdl" \
+"../../../../basicBuildingBlocksVhdl/genericComparator.vhdl" \
+"../../../../basicBuildingBlocksVhdl/genericCounter.vhdl" \
+"../../../../basicBuildingBlocksVhdl/genericRegister.vhdl" \
+"../../../../scopeFace.vhdl" \
+"../../../../two2Pix.vhdl" \
+"../../../../videoSignalGenerator.vhdl" \
+"../../../../acquireToHDMI_tb.vhdl" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,21 @@
+vhdl xil_defaultlib  \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/hdl/oscope_v1_0_S00_AXI.vhd" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/acquireToHDMI_package.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/basicBuildingBlocksVhdl_package.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/acquireToHDMI.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/acquireToHDMI_controlpath.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/scopeToHdmi_package.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/acquireToHDMI_datapath.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/flagRegister.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/genericComparator.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/genericCounter.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/genericMux4x1.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/genericRegister.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/scopeFace.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/two2Pix.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/src/videoSignalGenerator.vhdl" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/hdl/oscope_v1_0.vhd" \
+"../../../../oscope-funcgen-lab6.gen/sources_1/ip/oscope_0_1/sim/oscope_0.vhd" \
+
+# Do not sort compile order
+nosort

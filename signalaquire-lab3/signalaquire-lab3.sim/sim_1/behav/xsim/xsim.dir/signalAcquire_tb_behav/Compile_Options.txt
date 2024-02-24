@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "signalAcquire_tb_behav" "xil_defaultlib.signalAcquire_tb" -log "elaborate.log" 

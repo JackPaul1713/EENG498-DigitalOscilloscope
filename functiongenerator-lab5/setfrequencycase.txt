@@ -1,0 +1,23 @@
+		//// set sin wave frequency ////
+		case 'p':
+			// get frequency:
+			frequency = 0;
+			printf("Enter a frequency (Hz):\r\n");
+			do
+			{
+				c=XUartPs_RecvByte(USART_BASEADDR);
+				if ((c >= '0') && (c <= '9'))
+				{
+					frequency = frequency * 10 + (c-'0');
+					putchar(c);
+				}
+			}
+			while (c != '\r');
+			// find phase increment:
+			/* 10000 increments per second, 64 entries per period */
+			phaseIncrement = frequency * 52 >> 3; // frequency * 64 * 2^10 / 10000
+			// print confirmation:
+			printf("\r\n");
+			printf("%d Hz set\r\n", frequency);
+			printf("%d phase increment set\r\n", phaseIncrement);
+		    break;

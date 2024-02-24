@@ -1,0 +1,492 @@
+
+*** Running vivado
+    with args -log acquireToHDMI.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source acquireToHDMI.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source acquireToHDMI.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 455.348 ; gain = 159.938
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/hdmi_tx_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.cache/ip 
+Command: read_checkpoint -auto_incremental -incremental C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.srcs/utils_1/imports/synth_1/acquireToHDMI.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.srcs/utils_1/imports/synth_1/acquireToHDMI.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top acquireToHDMI -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 37392
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1284.934 ; gain = 410.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.vhdl:38]
+INFO: [Synth 8-3491] module 'acquireToHDMI_datapath' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:17' bound to instance 'datapath' of component 'acquireToHDMI_datapath' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.vhdl:62]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_datapath' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:36]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/.Xil/Vivado-1136-ASUSComputer/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'vc' of component 'clk_wiz_0' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:101]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/.Xil/Vivado-1136-ASUSComputer/realtime/clk_wiz_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'videoSignalGenerator' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/videoSignalGenerator.vhdl:17' bound to instance 'vidSigGen' of component 'videoSignalGenerator' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:107]
+INFO: [Synth 8-638] synthesizing module 'videoSignalGenerator' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/videoSignalGenerator.vhdl:32]
+INFO: [Synth 8-256] done synthesizing module 'videoSignalGenerator' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/videoSignalGenerator.vhdl:32]
+INFO: [Synth 8-3491] module 'scopeFace' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/scopeFace.vhdl:17' bound to instance 'scoFace' of component 'scopeFace' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:115]
+INFO: [Synth 8-638] synthesizing module 'scopeFace' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/scopeFace.vhdl:37]
+INFO: [Synth 8-256] done synthesizing module 'scopeFace' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/scopeFace.vhdl:37]
+INFO: [Synth 8-3491] module 'hdmi_tx_0' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/.Xil/Vivado-1136-ASUSComputer/realtime/hdmi_tx_0_stub.vhdl:6' bound to instance 'vgaToHdmi' of component 'hdmi_tx_0' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:129]
+INFO: [Synth 8-638] synthesizing module 'hdmi_tx_0' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/.Xil/Vivado-1136-ASUSComputer/realtime/hdmi_tx_0_stub.vhdl:30]
+INFO: [Synth 8-3491] module 'two2pix' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/two2Pix.vhdl:16' bound to instance 'trigVolt2Pix' of component 'two2pix' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:154]
+INFO: [Synth 8-638] synthesizing module 'two2pix' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/two2Pix.vhdl:24]
+INFO: [Synth 8-256] done synthesizing module 'two2pix' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/two2Pix.vhdl:24]
+INFO: [Synth 8-3491] module 'two2pix' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/two2Pix.vhdl:16' bound to instance 'ch1Act2Pix' of component 'two2pix' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:159]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:10' bound to instance 'ch1Comparator' of component 'genericCompare' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:164]
+INFO: [Synth 8-638] synthesizing module 'genericCompare' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+INFO: [Synth 8-3491] module 'two2pix' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/two2Pix.vhdl:16' bound to instance 'ch2Act2Pix' of component 'two2pix' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:169]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:10' bound to instance 'ch2Comparator' of component 'genericCompare' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:174]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:15' bound to instance 'addyCounter' of component 'genericCounter' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:185]
+INFO: [Synth 8-638] synthesizing module 'genericCounter' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:10' bound to instance 'addyComparator' of component 'genericCompare' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:188]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/.Xil/Vivado-1136-ASUSComputer/realtime/blk_mem_gen_0_stub.vhdl:6' bound to instance 'signalBRAMCh1' of component 'blk_mem_gen_0' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:193]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/.Xil/Vivado-1136-ASUSComputer/realtime/blk_mem_gen_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/.Xil/Vivado-1136-ASUSComputer/realtime/blk_mem_gen_0_stub.vhdl:6' bound to instance 'signalBRAMCh2' of component 'blk_mem_gen_0' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:203]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericRegister.vhdl:12' bound to instance 'currRegisterCh1' of component 'genericRegister' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:215]
+INFO: [Synth 8-638] synthesizing module 'genericRegister' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericRegister.vhdl:19]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericRegister' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericRegister.vhdl:19]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericRegister.vhdl:12' bound to instance 'prevRegisterCh1' of component 'genericRegister' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:218]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericRegister.vhdl:12' bound to instance 'currRegisterCh2' of component 'genericRegister' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:226]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericRegister.vhdl:12' bound to instance 'prevRegisterCh2' of component 'genericRegister' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:229]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:15' bound to instance 'shortCounter' of component 'genericCounter' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:241]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized1' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized1' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:10' bound to instance 'shortComparitor' of component 'genericCompare' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:244]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized2' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized2' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:15' bound to instance 'longCounter' of component 'genericCounter' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:247]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized3' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized3' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:10' bound to instance 'longComparitor' of component 'genericCompare' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:250]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized4' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized4' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'genericMux4x1' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericMux4x1.vhdl:9' bound to instance 'rateMux' of component 'genericMux4x1' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:253]
+INFO: [Synth 8-638] synthesizing module 'genericMux4x1' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericMux4x1.vhdl:16]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericMux4x1' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericMux4x1.vhdl:16]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:15' bound to instance 'rateCounter' of component 'genericCounter' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:256]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized5' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized5' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericCounter.vhdl:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:10' bound to instance 'rateComparitor' of component 'genericCompare' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:259]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized6' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized6' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/basicBuildingBlocksVhdl/genericComparator.vhdl:16]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_datapath' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_datapath.vhdl:36]
+INFO: [Synth 8-3491] module 'acquireToHDMI_ctrlpath' declared at 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_controlpath.vhdl:12' bound to instance 'ctrlpath' of component 'acquireToHDMI_ctrlpath' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.vhdl:78]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_ctrlpath' [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_controlpath.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_ctrlpath' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI_controlpath.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI' (0#1) [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.vhdl:38]
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[2] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[1] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[0] driven by constant 0
+WARNING: [Synth 8-7129] Port sw[3] in module acquireToHDMI_ctrlpath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[17] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[16] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[13] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[12] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[11] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[10] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[10] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[9] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[8] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[7] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[6] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[5] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[4] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[3] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[2] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[1] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[0] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[2] in module acquireToHDMI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.375 ; gain = 521.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.375 ; gain = 521.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.375 ; gain = 521.656
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1396.375 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'datapath/vc'
+Finished Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'datapath/vc'
+Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath/signalBRAMCh1'
+Finished Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath/signalBRAMCh1'
+Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath/signalBRAMCh2'
+Finished Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath/signalBRAMCh2'
+Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'datapath/vgaToHdmi'
+Finished Parsing XDC File [c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'datapath/vgaToHdmi'
+Parsing XDC File [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.xdc]
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.xdc:3]
+Finished Parsing XDC File [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/acquireToHDMI.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/acquireToHDMI_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/acquireToHDMI_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1501.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1501.344 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'datapath/signalBRAMCh1' at clock pin 'clkb' is different from the actual clock period '13.474', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'datapath/signalBRAMCh2' at clock pin 'clkb' is different from the actual clock period '13.474', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1501.344 ; gain = 626.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1501.344 ; gain = 626.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsClkN. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsClkN. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsClkP. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsClkP. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataN[0]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataN[0]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataN[1]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataN[1]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataN[2]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataN[2]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataP[0]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataP[0]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataP[1]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataP[1]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataP[2]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataP[2]. (constraint file  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 16).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath/vc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath/signalBRAMCh1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath/signalBRAMCh2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath/vgaToHdmi. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1501.344 ; gain = 626.625
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'acquireToHDMI_ctrlpath'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   reset |           0000000000000000000001 |                            00000
+                stablize |           0000000000000000000010 |                            00001
+                resetadc |           0000000000000000000100 |                            00010
+              waitsingle |           0000000000000000001000 |                            00011
+              setstoring |           0000000000000000010000 |                            00100
+               startconv |           0000000000000000100000 |                            00110
+              assertconv |           0000000000000001000000 |                            00111
+              whilebusy0 |           0000000000000010000000 |                            01000
+              whilebusy1 |           0000000000000100000000 |                            01001
+            setreadlowc1 |           0000000000001000000000 |                            01010
+             writesregc1 |           0000000000010000000000 |                            01011
+             writebramc1 |           0000000000100000000000 |                            01100
+           setreadhighc1 |           0000000001000000000000 |                            01101
+         resetshorttimer |           0000000010000000000000 |                            01110
+            setreadlowc2 |           0000000100000000000000 |                            01111
+             writesregc2 |           0000001000000000000000 |                            10000
+             writebramc2 |           0000010000000000000000 |                            10001
+           setreadhighc2 |           0000100000000000000000 |                            10010
+             waitrateend |           0001000000000000000000 |                            10011
+              manualmode |           0010000000000000000000 |                            10100
+                automode |           0100000000000000000000 |                            10101
+            setsearching |           1000000000000000000000 |                            00101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'acquireToHDMI_ctrlpath'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1501.344 ; gain = 626.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   24 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 73    
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               11 Bit    Registers := 5     
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 2     
+	   4 Input   24 Bit        Muxes := 1     
+	  22 Input   22 Bit        Muxes := 2     
+	   2 Input   22 Bit        Muxes := 9     
+	   4 Input   11 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   5 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 6     
+	   2 Input    1 Bit        Muxes := 44    
+	  80 Input    1 Bit        Muxes := 1     
+	  18 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 4     
+	  22 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP p_0_out, operation Mode is: -A*(B:0x290).
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator trigVolt2Pix/signedPix0 is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: -A*(B:0x290).
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator ch1Act2Pix/signedPix0 is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: -A*(B:0x290).
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: operator ch2Act2Pix/signedPix0 is absorbed into DSP p_0_out.
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[2] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[1] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[0] driven by constant 0
+WARNING: [Synth 8-7129] Port cw[17] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[16] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[13] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[12] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[11] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cw[10] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[10] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[9] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[8] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[7] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[6] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[5] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[4] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[3] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[2] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[1] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port triggerTimePixel[0] in module acquireToHDMI_datapath is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btn[2] in module acquireToHDMI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1501.344 ; gain = 626.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|two2pix     | -A*(B:0x290) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|two2pix     | -A*(B:0x290) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|two2pix     | -A*(B:0x290) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1501.344 ; gain = 626.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1548.883 ; gain = 674.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|two2pix     | (A*B)       | 0      | 10     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|two2pix     | (A*B)       | 30     | 10     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|two2pix     | (A*B)       | 30     | 10     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |hdmi_tx_0     |         1|
+|3     |blk_mem_gen_0 |         2|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |blk_mem_gen_0_bbox |     2|
+|3     |clk_wiz_0_bbox     |     1|
+|4     |hdmi_tx_0_bbox     |     1|
+|5     |CARRY4             |   170|
+|6     |DSP48E1            |     3|
+|7     |LUT1               |    80|
+|8     |LUT2               |   409|
+|9     |LUT3               |    96|
+|10    |LUT4               |   178|
+|11    |LUT5               |   123|
+|12    |LUT6               |   503|
+|13    |FDRE               |   173|
+|14    |FDSE               |     4|
+|15    |IBUF               |    20|
+|16    |OBUF               |    12|
++------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 23 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 1557.965 ; gain = 578.277
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.965 ; gain = 683.246
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1569.844 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 173 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1573.473 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 7fa314cc
+INFO: [Common 17-83] Releasing license: Synthesis
+88 Infos, 49 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1573.473 ; gain = 1079.105
+INFO: [Common 17-1381] The checkpoint 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.runs/synth_1/acquireToHDMI.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file acquireToHDMI_utilization_synth.rpt -pb acquireToHDMI_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 28 16:23:31 2023...

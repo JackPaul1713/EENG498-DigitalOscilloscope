@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/scopeface-lab2/scopeToHdmi_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/scopeface-lab2/scopeFace.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeFace'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/scopeface-lab2/scopeToHdmi.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeToHdmi'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/scopeface-lab2/videoSignalGenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'videoSignalGenerator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/scopeface-lab2/scopeToHdmi_tb.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeToHdmi_tb'

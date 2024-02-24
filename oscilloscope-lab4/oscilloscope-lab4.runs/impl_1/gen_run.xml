@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1701213754">
+  <File Type="ROUTE-PWR" Name="acquireToHDMI_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="acquireToHDMI.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="acquireToHDMI_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="acquireToHDMI_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="acquireToHDMI.msk"/>
+  <File Type="ROUTE-CLK" Name="acquireToHDMI_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="acquireToHDMI.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="acquireToHDMI_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="acquireToHDMI.bit"/>
+  <File Type="BG-DRC" Name="acquireToHDMI.drc"/>
+  <File Type="BG-BGN" Name="acquireToHDMI.bgn"/>
+  <File Type="BG-BIN" Name="acquireToHDMI.bin"/>
+  <File Type="BITSTR-RBT" Name="acquireToHDMI.rbt"/>
+  <File Type="BITSTR-NKY" Name="acquireToHDMI.nky"/>
+  <File Type="BITSTR-BMM" Name="acquireToHDMI_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="acquireToHDMI.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="acquireToHDMI_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="acquireToHDMI.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="acquireToHDMI_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="acquireToHDMI.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="acquireToHDMI_soc.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="acquireToHDMI.npi"/>
+  <File Type="OPT-DRC" Name="acquireToHDMI_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="acquireToHDMI.rbd"/>
+  <File Type="OPT-HWDEF" Name="acquireToHDMI.hwdef"/>
+  <File Type="PLACE-IO" Name="acquireToHDMI_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="acquireToHDMI_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="acquireToHDMI_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="acquireToHDMI_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="acquireToHDMI_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="acquireToHDMI_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="acquireToHDMI_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="acquireToHDMI_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="acquireToHDMI_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="acquireToHDMI_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="acquireToHDMI_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="acquireToHDMI_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="acquireToHDMI_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="acquireToHDMI_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="acquireToHDMI_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="acquireToHDMI_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="acquireToHDMI_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="acquireToHDMI_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="acquireToHDMI_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="acquireToHDMI_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="acquireToHDMI_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="acquireToHDMI_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="acquireToHDMI_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="acquireToHDMI_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="acquireToHDMI_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="acquireToHDMI_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="acquireToHDMI_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="acquireToHDMI_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="acquireToHDMI_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="acquireToHDMI_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="acquireToHDMI_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="acquireToHDMI_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="acquireToHDMI_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="acquireToHDMI_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="acquireToHDMI.pdi"/>
+  <File Type="PL-PDI-FILE" Name="acquireToHDMI_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="acquireToHDMI.rcfi"/>
+  <File Type="CFI_FILE" Name="acquireToHDMI.cfi"/>
+  <File Type="RNPI_FILE" Name="acquireToHDMI.rnpi"/>
+  <File Type="ROUTE-RQS" Name="acquireToHDMI_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="acquireToHDMI_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/acquireToHDMI_package.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/basicBuildingBlocksVhdl_package.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/acquireToHDMI_controlpath.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/scopeToHdmi_package.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/acquireToHDMI_datapath.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericComparator.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericCounter.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericMux4x1.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericRegister.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/scopeFace.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/two2Pix.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/videoSignalGenerator.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/acquireToHDMI.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/flagRegister.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericMux8x1.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/decoder3x8.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericMux2x1.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericAdderSubtractor.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/regFile8x16.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/basicBuildingBlocksVhdl/genericAdder.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="acquireToHDMI"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/acquireToHDMI.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/acquireToHDMI.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hdmi_tx_0"/>
+</GenRun>

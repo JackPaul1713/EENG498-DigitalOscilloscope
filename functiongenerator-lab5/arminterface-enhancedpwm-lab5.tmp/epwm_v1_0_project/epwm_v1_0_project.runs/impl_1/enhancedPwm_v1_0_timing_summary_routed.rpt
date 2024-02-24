@@ -1,0 +1,623 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Thu Nov 30 21:49:10 2023
+| Host         : ASUSComputer running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -max_paths 10 -report_unconstrained -file enhancedPwm_v1_0_timing_summary_routed.rpt -pb enhancedPwm_v1_0_timing_summary_routed.pb -rpx enhancedPwm_v1_0_timing_summary_routed.rpx -warn_on_violation
+| Design       : enhancedPwm_v1_0
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+Rule       Severity          Description                  Violations  
+---------  ----------------  ---------------------------  ----------  
+TIMING-17  Critical Warning  Non-clocked sequential cell  156         
+
+Note: This report is based on the most recent report_methodology run and may not be up-to-date. Run report_methodology on the current design for the latest report.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (156)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (461)
+5. checking no_input_delay (47)
+6. checking no_output_delay (39)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (156)
+--------------------------
+ There are 156 register/latch pins with no clock driven by root clock pin: s00_axi_aclk (HIGH)
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (461)
+--------------------------------------------------
+ There are 461 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (47)
+-------------------------------
+ There are 47 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (39)
+--------------------------------
+ There are 39 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+        inf        0.000                      0                  500          inf        0.000                      0                  500           NA           NA                      NA                    NA  
+
+
+There are no user specified timing constraints.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| User Ignored Path Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock    
+----------    ----------    --------    
+
+
+------------------------------------------------------------------------------------------------
+| Unconstrained Path Table
+| ------------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock    
+----------    ----------    --------    
+(none)                                    
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  
+
+Max Delay           500 Endpoints
+Min Delay           500 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/epwm/dutycycleCounter/tmp_reg[4]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            rollOver_ext
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        7.344ns  (logic 3.605ns (49.091%)  route 3.739ns (50.909%))
+  Logic Levels:           4  (FDRE=1 LUT4=1 LUT5=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X39Y43         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/epwm/dutycycleCounter/tmp_reg[4]/C
+    SLICE_X39Y43         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/epwm/dutycycleCounter/tmp_reg[4]/Q
+                         net (fo=5, routed)           1.040     1.496    enhancedPwm_v1_0_S00_AXI_inst/epwm/dutycycleCounter/Q[4]
+    SLICE_X39Y43         LUT5 (Prop_lut5_I0_O)        0.150     1.646 r  enhancedPwm_v1_0_S00_AXI_inst/epwm/dutycycleCounter/rollOver_ext_OBUF_inst_i_2/O
+                         net (fo=4, routed)           0.868     2.514    enhancedPwm_v1_0_S00_AXI_inst/epwm/dutycycleCounter/rollOver_ext_OBUF_inst_i_2_n_0
+    SLICE_X40Y43         LUT4 (Prop_lut4_I0_O)        0.332     2.846 r  enhancedPwm_v1_0_S00_AXI_inst/epwm/dutycycleCounter/rollOver_ext_OBUF_inst_i_1/O
+                         net (fo=10, routed)          1.831     4.677    rollOver_ext_OBUF
+    U13                  OBUF (Prop_obuf_I_O)         2.667     7.344 r  rollOver_ext_OBUF_inst/O
+                         net (fo=0)                   0.000     7.344    rollOver_ext
+    U13                                                               r  rollOver_ext (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[29]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[29]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.437ns  (logic 3.145ns (48.852%)  route 3.293ns (51.148%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y36         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[29]/C
+    SLICE_X41Y36         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[29]/Q
+                         net (fo=1, routed)           3.293     3.749    s00_axi_rdata_OBUF[29]
+    M17                  OBUF (Prop_obuf_I_O)         2.689     6.437 r  s00_axi_rdata_OBUF[29]_inst/O
+                         net (fo=0)                   0.000     6.437    s00_axi_rdata[29]
+    M17                                                               r  s00_axi_rdata[29] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[30]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[30]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.431ns  (logic 3.140ns (48.824%)  route 3.291ns (51.176%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X43Y37         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[30]/C
+    SLICE_X43Y37         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[30]/Q
+                         net (fo=1, routed)           3.291     3.747    s00_axi_rdata_OBUF[30]
+    M20                  OBUF (Prop_obuf_I_O)         2.684     6.431 r  s00_axi_rdata_OBUF[30]_inst/O
+                         net (fo=0)                   0.000     6.431    s00_axi_rdata[30]
+    M20                                                               r  s00_axi_rdata[30] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[31]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[31]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.400ns  (logic 3.150ns (49.217%)  route 3.250ns (50.783%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y36         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[31]/C
+    SLICE_X41Y36         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[31]/Q
+                         net (fo=1, routed)           3.250     3.706    s00_axi_rdata_OBUF[31]
+    M19                  OBUF (Prop_obuf_I_O)         2.694     6.400 r  s00_axi_rdata_OBUF[31]_inst/O
+                         net (fo=0)                   0.000     6.400    s00_axi_rdata[31]
+    M19                                                               r  s00_axi_rdata[31] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[26]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[26]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.355ns  (logic 3.115ns (49.014%)  route 3.240ns (50.986%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X43Y37         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[26]/C
+    SLICE_X43Y37         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[26]/Q
+                         net (fo=1, routed)           3.240     3.696    s00_axi_rdata_OBUF[26]
+    L20                  OBUF (Prop_obuf_I_O)         2.659     6.355 r  s00_axi_rdata_OBUF[26]_inst/O
+                         net (fo=0)                   0.000     6.355    s00_axi_rdata[26]
+    L20                                                               r  s00_axi_rdata[26] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[28]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[28]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.257ns  (logic 3.138ns (50.159%)  route 3.119ns (49.841%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y36         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[28]/C
+    SLICE_X41Y36         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[28]/Q
+                         net (fo=1, routed)           3.119     3.575    s00_axi_rdata_OBUF[28]
+    M18                  OBUF (Prop_obuf_I_O)         2.682     6.257 r  s00_axi_rdata_OBUF[28]_inst/O
+                         net (fo=0)                   0.000     6.257    s00_axi_rdata[28]
+    M18                                                               r  s00_axi_rdata[28] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[22]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[22]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.187ns  (logic 3.096ns (50.029%)  route 3.092ns (49.971%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X40Y37         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[22]/C
+    SLICE_X40Y37         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[22]/Q
+                         net (fo=1, routed)           3.092     3.548    s00_axi_rdata_OBUF[22]
+    K17                  OBUF (Prop_obuf_I_O)         2.640     6.187 r  s00_axi_rdata_OBUF[22]_inst/O
+                         net (fo=0)                   0.000     6.187    s00_axi_rdata[22]
+    K17                                                               r  s00_axi_rdata[22] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[23]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[23]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.187ns  (logic 3.098ns (50.072%)  route 3.089ns (49.928%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y38         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[23]/C
+    SLICE_X41Y38         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[23]/Q
+                         net (fo=1, routed)           3.089     3.545    s00_axi_rdata_OBUF[23]
+    L17                  OBUF (Prop_obuf_I_O)         2.642     6.187 r  s00_axi_rdata_OBUF[23]_inst/O
+                         net (fo=0)                   0.000     6.187    s00_axi_rdata[23]
+    L17                                                               r  s00_axi_rdata[23] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[27]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[27]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.170ns  (logic 3.113ns (50.456%)  route 3.057ns (49.544%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y36         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[27]/C
+    SLICE_X41Y36         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[27]/Q
+                         net (fo=1, routed)           3.057     3.513    s00_axi_rdata_OBUF[27]
+    L19                  OBUF (Prop_obuf_I_O)         2.657     6.170 r  s00_axi_rdata_OBUF[27]_inst/O
+                         net (fo=0)                   0.000     6.170    s00_axi_rdata[27]
+    L19                                                               r  s00_axi_rdata[27] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[25]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            s00_axi_rdata[25]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.161ns  (logic 3.092ns (50.182%)  route 3.069ns (49.818%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X43Y37         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[25]/C
+    SLICE_X43Y37         FDRE (Prop_fdre_C_Q)         0.456     0.456 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[25]/Q
+                         net (fo=1, routed)           3.069     3.525    s00_axi_rdata_OBUF[25]
+    K19                  OBUF (Prop_obuf_I_O)         2.636     6.161 r  s00_axi_rdata_OBUF[25]_inst/O
+                         net (fo=0)                   0.000     6.161    s00_axi_rdata[25]
+    K19                                                               r  s00_axi_rdata[25] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[29]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[29]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.237ns  (logic 0.186ns (78.504%)  route 0.051ns (21.496%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X40Y36         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[29]/C
+    SLICE_X40Y36         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[29]/Q
+                         net (fo=1, routed)           0.051     0.192    enhancedPwm_v1_0_S00_AXI_inst/slv_reg0[29]
+    SLICE_X41Y36         LUT5 (Prop_lut5_I0_O)        0.045     0.237 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[29]_i_1/O
+                         net (fo=1, routed)           0.000     0.237    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[29]
+    SLICE_X41Y36         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[29]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[18]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[18]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.239ns  (logic 0.186ns (77.839%)  route 0.053ns (22.161%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X40Y38         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[18]/C
+    SLICE_X40Y38         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[18]/Q
+                         net (fo=1, routed)           0.053     0.194    enhancedPwm_v1_0_S00_AXI_inst/slv_reg0[18]
+    SLICE_X41Y38         LUT5 (Prop_lut5_I0_O)        0.045     0.239 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[18]_i_1/O
+                         net (fo=1, routed)           0.000     0.239    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[18]
+    SLICE_X41Y38         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[18]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg2_reg[10]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[10]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.272ns  (logic 0.186ns (68.463%)  route 0.086ns (31.537%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X40Y39         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg2_reg[10]/C
+    SLICE_X40Y39         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg2_reg[10]/Q
+                         net (fo=1, routed)           0.086     0.227    enhancedPwm_v1_0_S00_AXI_inst/slv_reg2[10]
+    SLICE_X41Y39         LUT5 (Prop_lut5_I4_O)        0.045     0.272 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[10]_i_1/O
+                         net (fo=1, routed)           0.000     0.272    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[10]
+    SLICE_X41Y39         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[10]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[27]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[27]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.272ns  (logic 0.186ns (68.463%)  route 0.086ns (31.537%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X40Y36         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[27]/C
+    SLICE_X40Y36         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[27]/Q
+                         net (fo=1, routed)           0.086     0.227    enhancedPwm_v1_0_S00_AXI_inst/slv_reg0[27]
+    SLICE_X41Y36         LUT5 (Prop_lut5_I0_O)        0.045     0.272 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[27]_i_1/O
+                         net (fo=1, routed)           0.000     0.272    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[27]
+    SLICE_X41Y36         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[27]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[16]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[16]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.283ns  (logic 0.186ns (65.755%)  route 0.097ns (34.245%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y37         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[16]/C
+    SLICE_X41Y37         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[16]/Q
+                         net (fo=1, routed)           0.097     0.238    enhancedPwm_v1_0_S00_AXI_inst/slv_reg3[16]
+    SLICE_X40Y37         LUT5 (Prop_lut5_I1_O)        0.045     0.283 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[16]_i_1/O
+                         net (fo=1, routed)           0.000     0.283    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[16]
+    SLICE_X40Y37         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[16]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[6]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[6]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.284ns  (logic 0.186ns (65.398%)  route 0.098ns (34.602%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y40         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[6]/C
+    SLICE_X41Y40         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[6]/Q
+                         net (fo=1, routed)           0.098     0.239    enhancedPwm_v1_0_S00_AXI_inst/slv_reg3[6]
+    SLICE_X42Y41         LUT5 (Prop_lut5_I1_O)        0.045     0.284 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[6]_i_1/O
+                         net (fo=1, routed)           0.000     0.284    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[6]
+    SLICE_X42Y41         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[6]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[7]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[7]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.285ns  (logic 0.186ns (65.329%)  route 0.099ns (34.671%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y40         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[7]/C
+    SLICE_X41Y40         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[7]/Q
+                         net (fo=1, routed)           0.099     0.240    enhancedPwm_v1_0_S00_AXI_inst/slv_reg3[7]
+    SLICE_X40Y40         LUT5 (Prop_lut5_I1_O)        0.045     0.285 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[7]_i_1/O
+                         net (fo=1, routed)           0.000     0.285    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[7]
+    SLICE_X40Y40         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[4]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[4]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.289ns  (logic 0.186ns (64.322%)  route 0.103ns (35.678%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X43Y38         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[4]/C
+    SLICE_X43Y38         FDRE (Prop_fdre_C_Q)         0.141     0.141 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg3_reg[4]/Q
+                         net (fo=1, routed)           0.103     0.244    enhancedPwm_v1_0_S00_AXI_inst/slv_reg3[4]
+    SLICE_X43Y39         LUT5 (Prop_lut5_I1_O)        0.045     0.289 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[4]_i_1/O
+                         net (fo=1, routed)           0.000     0.289    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[4]
+    SLICE_X43Y39         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[4]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg2_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[1]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.291ns  (logic 0.209ns (71.796%)  route 0.082ns (28.204%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X42Y39         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg2_reg[1]/C
+    SLICE_X42Y39         FDRE (Prop_fdre_C_Q)         0.164     0.164 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg2_reg[1]/Q
+                         net (fo=1, routed)           0.082     0.246    enhancedPwm_v1_0_S00_AXI_inst/slv_reg2[1]
+    SLICE_X43Y39         LUT5 (Prop_lut5_I4_O)        0.045     0.291 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[1]_i_1/O
+                         net (fo=1, routed)           0.000     0.291    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[1]
+    SLICE_X43Y39         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[24]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[24]/D
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        0.291ns  (logic 0.209ns (71.796%)  route 0.082ns (28.204%))
+  Logic Levels:           2  (FDRE=1 LUT5=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X42Y37         FDRE                         0.000     0.000 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[24]/C
+    SLICE_X42Y37         FDRE (Prop_fdre_C_Q)         0.164     0.164 r  enhancedPwm_v1_0_S00_AXI_inst/slv_reg0_reg[24]/Q
+                         net (fo=1, routed)           0.082     0.246    enhancedPwm_v1_0_S00_AXI_inst/slv_reg0[24]
+    SLICE_X43Y37         LUT5 (Prop_lut5_I0_O)        0.045     0.291 r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata[24]_i_1/O
+                         net (fo=1, routed)           0.000     0.291    enhancedPwm_v1_0_S00_AXI_inst/reg_data_out[24]
+    SLICE_X43Y37         FDRE                                         r  enhancedPwm_v1_0_S00_AXI_inst/axi_rdata_reg[24]/D
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+

@@ -1,0 +1,17 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/an7606.vhd,1697831959,vhdl,,,,an7606_tb,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/basicBuildingBlocksVhdl/basicBuildingBlocksVhdl_package.vhdl,1697733488,vhdl,C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/signalAcquire.vhdl,,,basicbuildingblocks_package,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/basicBuildingBlocksVhdl/decoder3x8.vhdl,1697733488,vhdl,,,,decode3x8,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/basicBuildingBlocksVhdl/genericComparator.vhdl,1697733488,vhdl,,,,genericcompare,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/basicBuildingBlocksVhdl/genericCounter.vhdl,1697816117,vhdl,,,,genericcounter,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/basicBuildingBlocksVhdl/genericMux8x1.vhdl,1697733488,vhdl,,,,genericmux8x1,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/basicBuildingBlocksVhdl/genericRegister.vhdl,1697733488,vhdl,,,,genericregister,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/channelRam.vhdl,1697827131,vhdl,,,,channelram,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/signalAcquire.vhdl,1698026605,vhdl,,,,signalacquire,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/signalAcquireControlpath.vhdl,1698020226,vhdl,,,,signalacquire_ctrlpath,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/signalAcquireDatapath.vhdl,1697818933,vhdl,,,,signalacquire_datapath,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/signalAcquire_Package.vhdl,1698018826,vhdl,C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/signalAcquire.vhdl,,,signalacquire_package,,,,,,,,
+C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/signalaquire-lab3/signalAcquire_tb.vhd,1697833410,vhdl,,,,signalacquire_tb,,,,,,,,

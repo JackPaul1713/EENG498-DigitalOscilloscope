@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov 29 19:17:39 2023
+# Process ID: 25940
+# Current directory: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39268 C:\Users\JackPaul\OneDrive\Documents\Programs\Projects\eeng498\oscilloscope-lab4\oscilloscope-lab4.xpr
+# Log file: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/vivado.log
+# Journal file: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4\vivado.jou
+# Running On: ASUSComputer, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16541 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/oscilloscope-lab4.xpr
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  {c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/hdmi_tx_1.0 C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/hdmi_tx_1.0} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab4/hdmi_tx_1.0 [current_project]
+update_ip_catalog

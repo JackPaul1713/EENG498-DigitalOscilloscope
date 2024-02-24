@@ -1,0 +1,695 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Dec 10 22:33:31 2023
+# Process ID: 23544
+# Current directory: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25372 C:\Users\JackPaul\OneDrive\Documents\Programs\Projects\eeng498\oscope-funcgen-lab6\oscilloscope-lab6.xpr
+# Log file: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/vivado.log
+# Journal file: C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6\vivado.jou
+# Running On: ASUSComputer, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16541 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscilloscope-lab6.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6' since last save.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscilloscope-lab6.ip_user_files'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/acquireToHDMI_package.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/acquireToHDMI_package.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/basicBuildingBlocksVhdl_package.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/basicBuildingBlocksVhdl_package.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/acquireToHDMI_controlpath.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/acquireToHDMI_controlpath.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/scopeToHdmi_package.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/scopeToHdmi_package.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/acquireToHDMI_datapath.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/acquireToHDMI_datapath.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/flagRegister.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/flagRegister.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericComparator.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericComparator.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericCounter.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericCounter.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericMux4x1.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericMux4x1.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericRegister.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericRegister.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/scopeFace.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/scopeFace.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/two2Pix.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/two2Pix.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/videoSignalGenerator.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/videoSignalGenerator.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/acquireToHDMI.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/acquireToHDMI.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericMux8x1.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericMux8x1.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/decoder3x8.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/decoder3x8.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericMux2x1.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericMux2x1.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericAdderSubtractor.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericAdderSubtractor.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/regFile8x16.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/regFile8x16.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/basicBuildingBlocksVhdl/genericAdder.vhdl', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/basicBuildingBlocksVhdl/genericAdder.vhdl'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/acquireToHDMI.xdc', nor could it be found using path 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscilloscope-lab6/acquireToHDMI.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/hdmi_tx_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:12 . Memory (MB): peak = 1531.945 ; gain = 381.473
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 10 22:34:32 2023...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ipx::edit_ip_in_project -upgrade true -name oscope_v1_0_project -directory C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1631.566 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci' does not exist. The file is ignored.
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' does not exist. The file is ignored.
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' does not exist. The file is ignored.
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci' does not exist. The file is ignored.
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' does not exist. The file is ignored.
+CRITICAL WARNING: [IP_Flow 19-3667] Component file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' does not exist. The file is ignored.
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1636.543 ; gain = 4.977
+update_compile_order -fileset sources_1
+current_project oscope-funcgen-lab6
+close_project
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'oscilloscope_v1_0'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'oscilloscope_v1_0' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj oscilloscope_v1_0_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/basicBuildingBlocksVhdl_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_controlpath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_ctrlpath'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/scopeToHdmi_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_datapath'
+ERROR: [VRFC 10-8825] cannot update object 'inputin' of mode 'in' [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:287]
+ERROR: [VRFC 10-8820] cannot read from 'out' object 'inputout'; use 'buffer' or 'inout' instead [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:287]
+ERROR: [VRFC 10-8825] cannot update object 'outputin' of mode 'in' [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:288]
+ERROR: [VRFC 10-8820] cannot read from 'out' object 'outputout'; use 'buffer' or 'inout' instead [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:288]
+ERROR: [VRFC 10-9458] unit 'behavior' is ignored due to previous errors [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:43]
+INFO: [VRFC 10-8704] VHDL file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+create_ip -name hdmi_tx -vendor realdigital.org -library realdigital -version 1.0 -module_name hdmi_tx_0 -dir c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src
+set_property CONFIG.MODE {HDMI} [get_ips hdmi_tx_0]
+generate_target {instantiation_template} [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdmi_tx_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'hdmi_tx_0'...
+generate_target all [get_files  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdmi_tx_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'hdmi_tx_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'hdmi_tx_0'...
+catch { config_ip_cache -export [get_ips -all hdmi_tx_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: hdmi_tx_0
+export_ip_user_files -of_objects [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdmi_tx_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdmi_tx_0.xci]
+launch_runs hdmi_tx_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: hdmi_tx_0
+[Sun Dec 10 22:44:13 2023] Launched hdmi_tx_0_synth_1...
+Run output will be captured here: c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.runs/hdmi_tx_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdmi_tx_0.xci] -directory c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files/sim_scripts -ip_user_files_dir c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files -ipstatic_source_dir c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/modelsim} {questa=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/questa} {riviera=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/riviera} {activehdl=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_0 -dir c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src
+set_property -dict [list \
+  CONFIG.Memory_Type {Simple_Dual_Port_RAM} \
+  CONFIG.Write_Depth_A {2048} \
+] [get_ips blk_mem_gen_0]
+generate_target {instantiation_template} [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/blk_mem_gen_0_1/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+generate_target all [get_files  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/blk_mem_gen_0_1/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_0
+export_ip_user_files -of_objects [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/blk_mem_gen_0_1/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/blk_mem_gen_0_1/blk_mem_gen_0.xci]
+launch_runs blk_mem_gen_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_0
+[Sun Dec 10 22:44:49 2023] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.runs/blk_mem_gen_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/blk_mem_gen_0_1/blk_mem_gen_0.xci] -directory c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files/sim_scripts -ip_user_files_dir c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files -ipstatic_source_dir c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/modelsim} {questa=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/questa} {riviera=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/riviera} {activehdl=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src
+set_property -dict [list \
+  CONFIG.CLKIN1_JITTER_PS {200.0} \
+  CONFIG.CLKOUT1_JITTER {462.435} \
+  CONFIG.CLKOUT1_PHASE_ERROR {610.813} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {74.25} \
+  CONFIG.CLKOUT2_JITTER {372.733} \
+  CONFIG.CLKOUT2_PHASE_ERROR {610.813} \
+  CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {371.25} \
+  CONFIG.CLKOUT2_USED {true} \
+  CONFIG.MMCM_CLKFBOUT_MULT_F {59.375} \
+  CONFIG.MMCM_CLKIN1_PERIOD {20.000} \
+  CONFIG.MMCM_CLKIN2_PERIOD {10.0} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {10.000} \
+  CONFIG.MMCM_CLKOUT1_DIVIDE {2} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {4} \
+  CONFIG.NUM_OUT_CLKS {2} \
+  CONFIG.PRIM_IN_FREQ {50.000} \
+  CONFIG.RESET_PORT {resetn} \
+  CONFIG.RESET_TYPE {ACTIVE_LOW} \
+] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/clk_wiz_0_1/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+generate_target all [get_files  c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/clk_wiz_0_1/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: clk_wiz_0
+export_ip_user_files -of_objects [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/clk_wiz_0_1/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/clk_wiz_0_1/clk_wiz_0.xci]
+launch_runs clk_wiz_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: clk_wiz_0
+[Sun Dec 10 22:47:09 2023] Launched clk_wiz_0_synth_1...
+Run output will be captured here: c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.runs/clk_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo/oscope_1_0/src/clk_wiz_0_1/clk_wiz_0.xci] -directory c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files/sim_scripts -ip_user_files_dir c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files -ipstatic_source_dir c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/modelsim} {questa=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/questa} {riviera=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/riviera} {activehdl=c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'oscilloscope_v1_0'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-12490] The selected simulation model for 'blk_mem_gen_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'oscilloscope_v1_0' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj oscilloscope_v1_0_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/blk_mem_gen_0_1/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdl/encode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encode
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdl/serdes_10_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module serdes_10_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdl/srldelay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srldelay
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/hdl/hdmi_tx_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_tx_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/hdmi_tx_0_1/sim/hdmi_tx_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/clk_wiz_0_1/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/clk_wiz_0_1/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj oscilloscope_v1_0_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/basicBuildingBlocksVhdl_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_controlpath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_ctrlpath'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/scopeToHdmi_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_datapath'
+ERROR: [VRFC 10-8825] cannot update object 'inputin' of mode 'in' [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:287]
+ERROR: [VRFC 10-8820] cannot read from 'out' object 'inputout'; use 'buffer' or 'inout' instead [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:287]
+ERROR: [VRFC 10-8825] cannot update object 'outputin' of mode 'in' [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:288]
+ERROR: [VRFC 10-8820] cannot read from 'out' object 'outputout'; use 'buffer' or 'inout' instead [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:288]
+ERROR: [VRFC 10-9458] unit 'behavior' is ignored due to previous errors [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl:43]
+INFO: [VRFC 10-8704] VHDL file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2084.594 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'oscilloscope_v1_0'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'oscilloscope_v1_0' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj oscilloscope_v1_0_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj oscilloscope_v1_0_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/basicBuildingBlocksVhdl_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_controlpath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_ctrlpath'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/scopeToHdmi_package.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/acquireToHDMI_datapath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/genericComparator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericCompare'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/genericCounter.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericCounter'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/genericMux4x1.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericMux4x1'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/genericRegister.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericRegister'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oscilloscope_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/scopeFace.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeFace'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/two2Pix.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'two2pix'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/src/videoSignalGenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'videoSignalGenerator'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oscilloscope_v1_0'
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot oscilloscope_v1_0_behav xil_defaultlib.oscilloscope_v1_0 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot oscilloscope_v1_0_behav xil_defaultlib.oscilloscope_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3353] formal port 'inputin_ext' has no actual or default value [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0_S00_AXI.vhd:98]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2160.984 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'oscilloscope_v1_0'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'oscilloscope_v1_0' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj oscilloscope_v1_0_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj oscilloscope_v1_0_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oscilloscope_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oscilloscope_v1_0'
+ERROR: [VRFC 10-2969] 'inputin_ext' is not a type [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd:114]
+ERROR: [VRFC 10-2946] 'std_logic' is not a (resolution) function [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd:112]
+ERROR: [VRFC 10-4982] syntax error near ':' [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd:114]
+ERROR: [VRFC 10-2935] 'oscilloscope_v1_0_s00_axi' is already declared in this region [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd:118]
+ERROR: [VRFC 10-9458] unit 'arch_imp' is ignored due to previous errors [c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd:68]
+INFO: [VRFC 10-8704] VHDL file 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd' is ignored due to errors
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2160.984 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2160.984 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'oscilloscope_v1_0'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [Vivado 12-5357] 'setup' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'oscilloscope_v1_0'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'oscilloscope_v1_0' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj oscilloscope_v1_0_vlog.prj"
+ECHO is off.
+ECHO is off.
+"xvhdl --incr --relax -prj oscilloscope_v1_0_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oscilloscope_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/ip_repo/oscope_1_0/hdl/oscope_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'oscilloscope_v1_0'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot oscilloscope_v1_0_behav xil_defaultlib.oscilloscope_v1_0 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot oscilloscope_v1_0_behav xil_defaultlib.oscilloscope_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.acquiretohdmi_package
+Compiling package xil_defaultlib.basicbuildingblocks_package
+Compiling package xil_defaultlib.scopetohdmi_package
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=59.37...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture behavior of entity xil_defaultlib.videoSignalGenerator [videosignalgenerator_default]
+Compiling architecture behavior of entity xil_defaultlib.genericMux4x1 [\genericMux4x1(n=24)\]
+Compiling architecture behavior of entity xil_defaultlib.scopeFace [scopeface_default]
+Compiling module unisims_ver.SRL16E_default
+Compiling module xil_defaultlib.srldelay(WIDTH=40,TAPS=4'b1010)
+Compiling module xil_defaultlib.encode_default
+Compiling module xil_defaultlib.encode(CHANNEL="GREEN")
+Compiling module xil_defaultlib.encode(CHANNEL="RED")
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module xil_defaultlib.serdes_10_to_1
+Compiling module unisims_ver.OBUFDS(IOSTANDARD="TMDS_33")
+Compiling module xil_defaultlib.hdmi_tx_v1_0_default
+Compiling module xil_defaultlib.hdmi_tx_0
+Compiling architecture behavior of entity xil_defaultlib.two2pix [two2pix_default]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=11)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=11)\]
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="zyn...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture behavior of entity xil_defaultlib.genericRegister [\genericRegister(n=16)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=8)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=8)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=24)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=24)\]
+Compiling architecture behavior of entity xil_defaultlib.genericMux4x1 [\genericMux4x1(n=32)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=32)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=32)\]
+Compiling architecture behavior of entity xil_defaultlib.acquireToHDMI_datapath [acquiretohdmi_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.acquireToHDMI_ctrlpath [acquiretohdmi_ctrlpath_default]
+Compiling architecture behavior of entity xil_defaultlib.acquireToHDMI [acquiretohdmi_default]
+Compiling architecture arch_imp of entity xil_defaultlib.oscilloscope_v1_0_S00_AXI [oscilloscope_v1_0_s00_axi_defaul...]
+Compiling architecture arch_imp of entity xil_defaultlib.oscilloscope_v1_0
+Built simulation snapshot oscilloscope_v1_0_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 2160.984 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "oscilloscope_v1_0_behav -key {Behavioral:sim_1:Functional:oscilloscope_v1_0} -tclbatch {oscilloscope_v1_0.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source oscilloscope_v1_0.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module oscilloscope_v1_0.oscilloscope_v1_0_S00_AXI_inst.oscilloscope.datapath.signalBRAMCh1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module oscilloscope_v1_0.oscilloscope_v1_0_S00_AXI_inst.oscilloscope.datapath.signalBRAMCh2.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'oscilloscope_v1_0_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:23 . Memory (MB): peak = 2160.984 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 32 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/encode.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/serdes_10_to_1.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/srldelay.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/hdmi_tx_v1_0.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_7s_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_7s_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/encode.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/serdes_10_to_1.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/srldelay.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/hdmi_tx_v1_0.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_7s_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_7s_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "simulation/blk_mem_gen_v8_4.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+WARNING: [IP_Flow 19-11770] Clock interface 'S00_AXI_CLK' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-801] The last file in file group "VHDL Synthesis" should be an HDL file: "src/clk_wiz_0_1/clk_wiz_0.xci".  During generation the IP Flow uses the last file to determine library and other information when generating the top wrapper file.  If possible, please make sure that non-HDL files are located earlier in the list of files for this file group.
+WARNING: [IP_Flow 19-801] The last file in file group "VHDL Simulation" should be an HDL file: "src/clk_wiz_0_1/clk_wiz_0.xci".  During generation the IP Flow uses the last file to determine library and other information when generating the top wrapper file.  If possible, please make sure that non-HDL files are located earlier in the list of files for this file group.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+ERROR: [Project 1-161] Failed to remove the directory 'c:/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.sim'. The directory might be in use by some other process.
+open_project C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/hdl/oscope_v1_0_S00_AXI.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI_package.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/basicBuildingBlocksVhdl_package.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI_controlpath.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/scopeToHdmi_package.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI_datapath.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/genericComparator.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/genericCounter.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/genericMux4x1.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/hdl/oscope_v1_0_S00_AXI.vhd'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI_package.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/basicBuildingBlocksVhdl_package.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI_controlpath.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/scopeToHdmi_package.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/acquireToHDMI_datapath.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/genericComparator.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/genericCounter.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/ipshared/f333/src/genericMux4x1.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'zyncoscope_oscope_0_1' generated file not found 'c:/Users/JackPaul/OneDrive/Documents/Programs/users/jackpaul/onedrive/documents/programs/projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.tmp/oscope_v1_0_project/oscope_v1_0_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'hdmi_tx_0'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance hdmi_tx_0 using VLNV :::.
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'zyncoscope_oscope_0_1'. Error during subcore creation.
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo'.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/ip_repo'.
+generate_target Simulation [get_files C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.srcs/sources_1/bd/zyncoscope/zyncoscope.bd]
+INFO: [BD 41-434] Could not find an IP with XCI file by name: zyncoscope_oscope_0_1 
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+INFO: [Common 17-365] Interrupt caught but 'generate_target' cannot be canceled. Please wait for command to finish.
+Wrote  : <C:\Users\JackPaul\OneDrive\Documents\Programs\Projects\eeng498\oscope-funcgen-lab6\oscope-funcgen-lab6.srcs\sources_1\bd\zyncoscope\zyncoscope.bd> 
+VHDL Output written to : c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/synth/zyncoscope.vhd
+VHDL Output written to : c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/sim/zyncoscope.vhd
+VHDL Output written to : c:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.gen/sources_1/bd/zyncoscope/hdl/zyncoscope_wrapper.vhd
+INFO: [BD 41-1171] User-interrupt detected : Generation halted successfully for IP Integrator design C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.srcs/sources_1/bd/zyncoscope/zyncoscope.bd
+INFO: [Common 17-681] Processing pending cancel.
+export_ip_user_files -of_objects [get_files C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.srcs/sources_1/bd/zyncoscope/zyncoscope.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.srcs/sources_1/bd/zyncoscope/zyncoscope.bd] -directory C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.ip_user_files -ipstatic_source_dir C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/compile_simlib/modelsim} {questa=C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/compile_simlib/questa} {riviera=C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/compile_simlib/riviera} {activehdl=C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet

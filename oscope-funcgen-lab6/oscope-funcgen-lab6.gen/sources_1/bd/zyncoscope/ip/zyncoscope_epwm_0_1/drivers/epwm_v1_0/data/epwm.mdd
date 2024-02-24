@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER epwm
+	OPTION supported_peripherals = (epwm);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = epwm;
+END DRIVER

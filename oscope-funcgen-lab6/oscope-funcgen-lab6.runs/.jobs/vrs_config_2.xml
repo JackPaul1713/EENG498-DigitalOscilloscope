@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="zyncoscope_rst_ps7_0_50M_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zyncoscope_processing_system7_0_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zyncoscope_oscope_0_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_oscope_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zyncoscope_xbar_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zyncoscope_epwm_1_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zyncoscope_epwm_0_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_epwm_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zyncoscope_epwm_1_0_synth_1"/>
+	</Run>
+	<Run Id="zyncoscope_s00_mmu_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_s00_mmu_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zyncoscope_auto_pc_0_synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/zyncoscope_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="zyncoscope_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="zyncoscope_processing_system7_0_0_synth_1"/>
+		<Parent Id="zyncoscope_oscope_0_0_synth_1"/>
+		<Parent Id="zyncoscope_xbar_0_synth_1"/>
+		<Parent Id="zyncoscope_epwm_1_0_synth_1"/>
+		<Parent Id="zyncoscope_epwm_0_0_synth_1"/>
+		<Parent Id="zyncoscope_s00_mmu_0_synth_1"/>
+		<Parent Id="zyncoscope_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/oscope-funcgen-lab6/oscope-funcgen-lab6.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="zyncoscope_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="zyncoscope_processing_system7_0_0_synth_1"/>
+		<Parent Id="zyncoscope_oscope_0_0_synth_1"/>
+		<Parent Id="zyncoscope_xbar_0_synth_1"/>
+		<Parent Id="zyncoscope_epwm_1_0_synth_1"/>
+		<Parent Id="zyncoscope_epwm_0_0_synth_1"/>
+		<Parent Id="zyncoscope_s00_mmu_0_synth_1"/>
+		<Parent Id="zyncoscope_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

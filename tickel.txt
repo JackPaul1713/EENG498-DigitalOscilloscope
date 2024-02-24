@@ -1,0 +1,5 @@
+pwd
+cd "C:/Users/JackPaul/OneDrive/Documents/Programs/Projects/eeng498/*lab*"
+ls
+restart
+source *tickel file*

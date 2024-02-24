@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Checkpoint Version="20" Minor="0">
+	<BUILD_NUMBER Name="3865809"/>
+	<FULL_BUILD Name="SW Build 3865809 on Sun May  7 15:05:29 MDT 2023"/>
+	<PRODUCT Name="Vivado v2023.1 (64-bit)"/>
+	<Part Name="xc7z010clg400-1"/>
+	<Top Name="zyncoscope_wrapper"/>
+	<DisableAutoIOBuffers Name="0"/>
+	<OutOfContext Name="0"/>
+	<RunGenerated Name="1"/>
+	<HDPlatform Name="0"/>
+	<XPMLIBRARY Name="XPM_CDC"/>
+	<XPMLIBRARY Name="XPM_MEMORY"/>
+	<File Type="VERILOG_STUB" Name="zyncoscope_wrapper_stub.v" ModTime="1701410093"/>
+	<File Type="VHDL_STUB" Name="zyncoscope_wrapper_stub.vhdl" ModTime="1701410093"/>
+	<File Type="SHAPE" Name="zyncoscope_wrapper.shape" ModTime="1701410093"/>
+	<File Type="EDIF" Name="zyncoscope_wrapper.edf" ModTime="1701410093"/>
+	<File Type="XN" Name="zyncoscope_wrapper.xn" ModTime="1701410093"/>
+	<File Type="INCR" Name="zyncoscope_wrapper.incr" ModTime="1701410093"/>
+	<File Type="RDA" Name="zyncoscope_wrapper.rda" ModTime="1701410093"/>
+	<File Type="JSON_RDA" Name="zyncoscope_wrapper_rda.json" ModTime="1701410093"/>
+	<File Type="WDF" Name="zyncoscope_wrapper.wdf" ModTime="1701410093"/>
+	<File Type="SYNTH" Name="zyncoscope_wrapper.synth" ModTime="1701410093"/>
+	<File Type="HWDEF" Name="zyncoscope_wrapper.hwdef" ModTime="1701410093"/>
+	<File Type="HWDEF" Name="zyncoscope_wrapper.hwdef" ModTime="1701410093"/>
+</Checkpoint>
+

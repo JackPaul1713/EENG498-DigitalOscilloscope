@@ -1,0 +1,34 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot signalAcquire_tb_behav xil_defaultlib.signalAcquire_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.signalacquire_package
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.basicbuildingblocks_package
+Compiling architecture behavior of entity xil_defaultlib.an7606_tb [an7606_tb_default]
+Compiling architecture behavioral of entity xil_defaultlib.signalAcquire_Ctrlpath [signalacquire_ctrlpath_default]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=8)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=8)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=24)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=24)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=3)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=3)\]
+Compiling architecture behavior of entity xil_defaultlib.genericRegister [\genericRegister(n=16)\]
+Compiling architecture behavior of entity xil_defaultlib.decode3x8 [decode3x8_default]
+Compiling architecture behavior of entity xil_defaultlib.genericMux8x1 [\genericMux8x1(n=16)\]
+Compiling architecture behavior of entity xil_defaultlib.channelRam [channelram_default]
+Compiling architecture behavior of entity xil_defaultlib.signalAcquire_Datapath [signalacquire_datapath_default]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=16)\]
+Compiling architecture behavior of entity xil_defaultlib.signalAcquire [signalacquire_default]
+Compiling architecture behavior of entity xil_defaultlib.signalacquire_tb
+Built simulation snapshot signalAcquire_tb_behav

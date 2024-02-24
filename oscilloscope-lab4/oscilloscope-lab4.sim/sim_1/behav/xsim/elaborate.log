@@ -1,0 +1,64 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot acquireToHDMI_tb_behav xil_defaultlib.acquireToHDMI_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.acquiretohdmi_package
+Compiling package ieee.math_real
+Compiling package xil_defaultlib.basicbuildingblocks_package
+Compiling package xil_defaultlib.scopetohdmi_package
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavior of entity xil_defaultlib.an7606 [an7606_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=59.37...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture behavior of entity xil_defaultlib.videoSignalGenerator [videosignalgenerator_default]
+Compiling architecture behavior of entity xil_defaultlib.scopeFace [scopeface_default]
+Compiling module unisims_ver.SRL16E_default
+Compiling module xil_defaultlib.srldelay(WIDTH=40,TAPS=4'b1010)
+Compiling module xil_defaultlib.encode_default
+Compiling module xil_defaultlib.encode(CHANNEL="GREEN")
+Compiling module xil_defaultlib.encode(CHANNEL="RED")
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module xil_defaultlib.serdes_10_to_1
+Compiling module unisims_ver.OBUFDS(IOSTANDARD="TMDS_33")
+Compiling module xil_defaultlib.hdmi_tx_v1_0_default
+Compiling module xil_defaultlib.hdmi_tx_0
+Compiling architecture behavior of entity xil_defaultlib.two2pix [two2pix_default]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=11)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=11)\]
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="zyn...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture behavior of entity xil_defaultlib.genericRegister [\genericRegister(n=16)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=8)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=8)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=24)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=24)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCounter [\genericCounter(n=32)\]
+Compiling architecture behavior of entity xil_defaultlib.genericCompare [\genericCompare(n=32)\]
+Compiling architecture behavior of entity xil_defaultlib.acquireToHDMI_datapath [acquiretohdmi_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.acquireToHDMI_ctrlpath [acquiretohdmi_ctrlpath_default]
+Compiling architecture behavior of entity xil_defaultlib.acquireToHDMI [acquiretohdmi_default]
+Compiling architecture behavior of entity xil_defaultlib.acquiretohdmi_tb
+Built simulation snapshot acquireToHDMI_tb_behav
